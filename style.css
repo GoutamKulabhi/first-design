@@ -1,0 +1,47 @@
+:root{
+	font-size: 16px;
+}
+
+.container{
+	display: flex;
+	margin-left: 2vh;
+	flex-direction: column;
+}
+
+.heading{
+	display: flex;
+	flex-direction: column;
+	background-color: #2C3B3B;
+	border:2px solid black;
+	border-radius:15px;
+	border:15px;
+	font-size: 2rem;
+	padding: 2vh;
+	color: #AD5920;
+}
+.font{
+	display: flex;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	flex-direction: column;
+	font-size:1.25rem;
+
+}
+.image{
+	display: flex;
+	width:30vw;
+	box-shadow: 0 3px 20px 0 #CA7027;
+}
+
+
+
+@media only screen and (max-width: 725px;) {
+	
+	h1{
+		font-size:20vw;
+	}
+	.heading{
+		width:20vw;
+	}
+	
+	
+}
